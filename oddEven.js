@@ -1,14 +1,12 @@
-// Write an arrow function to check whether a number is Odd or Even.
-// Return "Even" if the number is even.
-// Return "Odd" if the number is odd.
+let students =[
+    {name: "chandru",dept:"BCA",age:"18"},
+    {name: "anu",dept:"BCA",age:"19"},
+    {name: "kaviya",dept:"BCA",age:"19"},
+];
+function getStudentDetails(students) {
+    for(const {name,age,dept} of students){
+        console.log(name,age,dept);
+    }// Write your code here
+}
 
-// Example:
-// checkOddEven(8) ? "Even"
-// checkOddEven(5) ? "Odd"
-
-const checkOddEven = (num) => {
-    // Write your code here
-
-};
-
-module.exports = checkOddEven;
+getStudentDetails(students);
